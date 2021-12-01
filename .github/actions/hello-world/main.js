@@ -4,4 +4,4 @@ const greeting = core.getInput("greeting");
 
 console.log(`${greeting}`);
 
-}
+
