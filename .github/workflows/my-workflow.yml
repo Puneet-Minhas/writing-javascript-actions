@@ -23,3 +23,12 @@ jobs:
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
           joke: ${{steps.jokes.outputs.joke-output}}
+
+
+      - id: foo
+        uses: iveylabs/hello-world-composite-actionn@v1
+        with:
+          who-to-greet: 'Mona the Octocat'
+          
+      - run: echo random-number ${{ steps.foo.outputs.random-number }}
+        shell: bash
