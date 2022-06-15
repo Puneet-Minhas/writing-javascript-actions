@@ -26,7 +26,7 @@ jobs:
 
 
       - id: foo
-        uses: iveylabs/hello-world-composite-actionn@v1
+        uses: iveylabs/hello-world-composite-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
           
