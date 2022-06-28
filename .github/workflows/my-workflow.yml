@@ -13,6 +13,8 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          first-greeting: 'Hi there'
 
       - name: ha-ha
         uses: ./.github/actions/joke-action
